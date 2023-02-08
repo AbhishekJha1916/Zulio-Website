@@ -1,28 +1,9 @@
-<section class="header">
-    <nav>
-        <a href="index.html" class="logo" title="logo">
-            <img src="./Images/logo.png" class="logo-main" alt="logo">
-        </a>
-        <div class="nav-links" id="navLinks">
-            <i class="bi bi-arrow-right" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="index.ejs">HOME</a></li>
-                <li><a href="about.ejs">ABOUT US</a></li>
-                <li><a href="services.ejs">SERVICES</a></li>
-                <li><a href="products.ejs">PRODUCTS</a></li>
-                <li><a href="contact.ejs">CONTACT US</a></li>
-            </ul>
-        </div>
-        <i class="bi bi-list" onclick="showMenu()"></i>
-    </nav>
-
-    <div class="text-box">
-        <h1>Welcome To Zulio</h1>
-        <p>We Provide Zippy, Unique, Likable, Innovative & Original Services</p>
-        <a href="" class="hero-btn">Learn More</a>
-    </div>
-
-</section>
+<!-- Landing -->
+<div class="text-box">
+    <h1>Welcome To Zulio</h1>
+    <p>We Provide Zippy, Unique, Likable, Innovative & Original Services</p>
+    <a href="/about" class="hero-btn">Learn More</a>
+</div>
 
 <!-- Services -->
 
@@ -61,19 +42,19 @@
         reiciendis dolorem odit beatae? Assumenda, quos.</p>
     <div class="row">
         <div class="product-col">
-            <img src="images/post-1.jpg" alt="img">
+            <img src="/Images/post-1.jpg" alt="img">
             <div class="layer">
                 <h3>PRODUCT 1</h3>
             </div>
         </div>
         <div class="product-col">
-            <img src="images/post-2.jpg" alt="img">
+            <img src="/Images/post-2.jpg" alt="img">
             <div class="layer">
                 <h3>PRODUCT 2</h3>
             </div>
         </div>
         <div class="product-col">
-            <img src="images/post-3.jpg" alt="img">
+            <img src="/Images/post-3.jpg" alt="img">
             <div class="layer">
                 <h3>PRODUCT 3</h3>
             </div>
@@ -86,7 +67,7 @@
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
     <div class="row">
         <div class="testimonial-col">
-            <img src="Images/user.png" alt="img">
+            <img src="/Images/user.png" alt="img">
             <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam a molestiae eveniet
                     perferendis, exercitationem officia corporis autem eaque omnis asperiores assumenda hic doloribus
@@ -100,7 +81,7 @@
             </div>
         </div>
         <div class="testimonial-col">
-            <img src="Images/user.png" alt="img">
+            <img src="/Images/user.png" alt="img">
             <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ullam a molestiae eveniet
                     perferendis, exercitationem officia corporis autem eaque omnis asperiores assumenda hic doloribus
@@ -119,39 +100,5 @@
 <!-- Call to Action -->
 <section class="cta">
     <h1>Buy Our Products<br> From Anywhere</h1>
-    <a href="" class="hero-btn">CONTACT US</a>
+    <a href="/contact" class="hero-btn">CONTACT US</a>
 </section>
-
-<!-- Footer -->
-<section class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat maiores maxime dignissimos delectus
-        tempora<br>atque vero excepturi, nihil numquam molestiae doloribus quae eius nobis laboriosam,<br>
-        exercitationem consectetur praesentium ab! Ratione? </p>
-    <div class="icons">
-        <i class="bi bi-facebook"></i>
-        <i class="bi bi-twitter"></i>
-        <i class="bi bi-instagram"></i>
-        <i class="bi bi-linkedin"></i>
-        <i class="bi bi-youtube"></i>
-    </div>
-    <!-- Empty  -->
-    <p></p>
-
-    <p class="last">
-        <a href="about.ejs">Zulio © 2022</a>
-        <a href="privacy.ejs">Privacy & Legal</a>
-    </p>
-</section>
-
-<!-- Javascript -->
-<script>
-    var navLinks = document.getElementById("navLinks");
-
-    function showMenu() {
-        navLinks.style.right = '0';
-    }
-    function hideMenu() {
-        navLinks.style.right = '-200px';
-    }
-</script>

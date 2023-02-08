@@ -11,15 +11,16 @@
 
 
     <link rel="stylesheet" href="/css/layout.css" />
-
-    <%- style %>
     <title>Providing Best Technical Services | Zulio</title>
 </head>
 
 <body>
-
+    <%- include('_header');%>
+    <!-- Variable content that we want to show -->
     <%- body %>
-
+    <%- include('_footer');%>
+    <!-- Script content that we want to execute -->
+    <script src="/javascript/app.js"></script>
 </body>
 
 </html>
