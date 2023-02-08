@@ -1,0 +1,112 @@
+<section class="sub-header">
+    <nav>
+        <a href="index.html" class="logo" title="logo">
+            <img src="./Images/logo.png" class="logo-main" alt="logo">
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="bi bi-arrow-right" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Products</h1>
+</section>
+
+<!-- Content -->
+<section class="products">
+    <!-- <h1>Products We Provide</h1> -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quis laborum consequatur<br> eligendi, hic
+        reiciendis dolorem odit beatae? Assumenda, quos.</p>
+    <div class="row">
+        <div class="product-col">
+            <img src="images/post-1.jpg">
+            <div class="layer">
+                <h3>PRODUCT 1</h3>
+            </div>
+        </div>
+        <div class="product-col">
+            <img src="images/post-2.jpg">
+            <div class="layer">
+                <h3>PRODUCT 2</h3>
+            </div>
+        </div>
+        <div class="product-col">
+            <img src="images/post-3.jpg">
+            <div class="layer">
+                <h3>PRODUCT 3</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="product-col">
+            <img src="images/post-1.jpg">
+            <div class="layer">
+                <h3>PRODUCT 4</h3>
+            </div>
+        </div>
+        <div class="product-col">
+            <img src="images/post-2.jpg">
+            <div class="layer">
+                <h3>PRODUCT 5</h3>
+            </div>
+        </div>
+        <div class="product-col">
+            <img src="images/post-3.jpg">
+            <div class="layer">
+                <h3>PRODUCT 6</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Comment Box -->
+<div class="comment-box">
+    <h3>Leave a Comment</h3>
+
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="text" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your Comment"></textarea>
+        <button type="submit" class="btn">POST COMMENT</button>
+    </form>
+</div>
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat maiores maxime dignissimos delectus
+        tempora<br>atque vero excepturi, nihil numquam molestiae doloribus quae eius nobis laboriosam,<br>
+        exercitationem consectetur praesentium ab! Ratione? </p>
+    <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-youtube"></i>
+    </div>
+    <!-- Empty  -->
+    <p></p>
+
+    <p class="last">
+        <a href="about.html">Zulio © 2022</a>
+        <a href="privacy.html">Privacy & Legal</a>
+    </p>
+</section>
+
+<!-- Javascript -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = '0';
+    }
+    function hideMenu() {
+        navLinks.style.right = '-200px';
+    }
+</script>
